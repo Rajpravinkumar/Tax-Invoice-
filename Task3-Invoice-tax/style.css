@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #7889;
+}
+
+header {
+  background: #f12123;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#summary {
+  display: flex;
+  justify-content: space-around;
+}
+
+#entry-form, #filters {
+  padding: 20px;
+  background: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#entries {
+  margin: 10px;
+}
+
+#entry-list {
+  list-style: none;
+  padding: 0;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #fff;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
